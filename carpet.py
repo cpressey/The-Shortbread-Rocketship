@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
+import json
 import os
 from optparse import OptionParser
 import random
-import struct
 import sys
 import wave
 
@@ -17,15 +17,8 @@ from longwave import Wav, OutputWav, ListLevelBackingStore
 from reprowave import dual_carpet
 
 
-WAVS = {}
-
-def rand_wave(dirname):
-    return random.choice(
-        [x for x in os.listdir(dirname) if x.endswith('.pickle')]
-    )
-
-
 OUTPUT_RATE = None
+WAVS = {}
 
 
 def load_wav(filename):
@@ -43,11 +36,6 @@ def load_wav(filename):
     return w
 
 
-def random_pop(l):
-    d = random.randint(0, len(l) - 1)
-    return l.pop(d)
-
-
 def main(argv):
     global OUTPUT_RATE
     optparser = OptionParser(__doc__)
@@ -55,37 +43,25 @@ def main(argv):
     optparser.add_option("--output-rate", default=16000)
     optparser.add_option("--master-dir", default='pickle')
     #optparser.add_option("--snippet-duration", default=2.0)
-    #optparser.add_option("--pattern", default='X')
     optparser.add_option("--output-name", "-o", default='output')
     (options, args) = optparser.parse_args(argv[1:])
 
     OUTPUT_RATE = int(options.output_rate)
 
-    dirs = args
-
-    # TODO: handle each of these slightly specially
-    master_dir = options.master_dir
-    types = ('choral', 'orch', 'speech', 'piano', 'short')
-
-    patterns = [
-        'X',
-        'X X',
-        ' X X ',
-        ' X ',
-        'X X ',
-        ' X X',
-    ]
+    scheme = json.loads(open(args[0], 'r').read())
+    scene_num = int(args[1]) - 1
+    scene = scheme[scene_num]
 
     layer_names = []
-    for layer_num in xrange(0, 4):
+    for (layer_num, layer) in enumerate(scene['layers']):
         print 'LAYER', layer_num
-        type_dir = random.choice(types)
-        dirname = os.path.join(master_dir, type_dir)
-        wavename = rand_wave(dirname)
+
+        dirname = os.path.join(options.master_dir, layer['type'])
+        wavename = layer['sample']
         fullwavename = os.path.join(dirname, wavename)
         wav = load_wav(fullwavename)
 
-        pattern = random_pop(patterns)
+        pattern = layer['pattern']
         print fullwavename, '-> "%s"' % pattern
         
         #snippet_dur = float(options.snippet_duration)

@@ -22,8 +22,10 @@ def make_scene(available, patterns):
 
     layers = []
     for x in xrange(0, 4):
+        type_ = random.choice(keys)
         layers.append({
-            'sample': random.choice(available[random.choice(keys)]),
+            'type': type_,
+            'sample': random.choice(available[type_]),
             'pattern': random.choice(patterns)
         })
 
