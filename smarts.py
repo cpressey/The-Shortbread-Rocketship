@@ -6,28 +6,38 @@ import random
 import json
 
 
-def rand_wave(dirname):
-    return random.choice(
-        [x for x in os.listdir(dirname) if x.endswith('.pickle')]
-    )
-
-
 def random_pop(l):
     d = random.randint(0, len(l) - 1)
     return l.pop(d)
 
 
-def make_scene(available, patterns):
+PATTERNS = [
+    'X',
+    'X X',
+    ' X X ',
+    ' X ',
+    'X X ',
+    ' X X',
+]
+
+
+def make_scene(available):
     keys = available.keys()
 
     layers = []
+    used_patterns = set()
+
     for x in xrange(0, 4):
         type_ = random.choice(keys)
+        pattern = None
+        while pattern is None or pattern in used_patterns:
+            pattern = random.choice(PATTERNS)
         layers.append({
             'type': type_,
             'sample': random.choice(available[type_]),
-            'pattern': random.choice(patterns)
+            'pattern': pattern
         })
+        used_patterns.add(pattern)
 
     return {
         'layers': layers
@@ -41,23 +51,14 @@ def main(argv):
 
     master_dir = options.master_dir
     types = ('choral', 'orch', 'speech', 'piano', 'short')
-    
+
     available = {}
     for t in types:
         available[t] = os.listdir(os.path.join(master_dir, t))
 
-    patterns = [
-        'X',
-        'X X',
-        ' X X ',
-        ' X ',
-        'X X ',
-        ' X X',
-    ]
-
     scenes = []
     for scene_num in xrange(1, 16):
-        scene = make_scene(available, patterns)
+        scene = make_scene(available)
         scenes.append(scene)
 
     print json.dumps(scenes)

@@ -49,8 +49,9 @@ def main(argv):
     OUTPUT_RATE = int(options.output_rate)
 
     scheme = json.loads(open(args[0], 'r').read())
-    scene_num = int(args[1]) - 1
-    scene = scheme[scene_num]
+    scene_num = int(args[1])
+    assert scene_num >= 1
+    scene = scheme[scene_num-1]
 
     layer_names = []
     for (layer_num, layer) in enumerate(scene['layers']):
