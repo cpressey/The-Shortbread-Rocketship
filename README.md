@@ -1,5 +1,7 @@
-The Shortbread Rocketship: A Cut-Up Opera
-=========================================
+The Shortbread Rocketship
+=========================
+
+### A Cut-Up Opera ###
 
 A generated opera in three acts, for
 [NaOpGenMo](https://github.com/cpressey/NaOpGenMo).
@@ -48,3 +50,5 @@ around.
 
 The chosen samples for at least one layer should include a "choral"
 sample (though these might also include just speaking.)
+
+Why are my e-books not pickling correctly?!?
