@@ -52,3 +52,5 @@ The chosen samples for at least one layer should include a "choral"
 sample (though these might also include just speaking.)
 
 Why are my e-books not pickling correctly?!?
+(because sox stops at the incorrect header.  workaround, use avconv to
+make wav file sources for them)

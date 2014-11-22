@@ -31,6 +31,8 @@ def main(argv):
         )
         print command
         os.system(command)
+        if False:
+            os.system('totem %s' % temp_filename)
 
         print temp_filename, '->', outfile
         w = Wav.load(temp_filename)
