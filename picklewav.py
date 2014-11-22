@@ -11,13 +11,15 @@ from longwave import Wav, OutputWav
 
 def main(argv):
     optparser = OptionParser(__doc__)
+    optparser.add_option("--pickle-dir", default='pickle')
     (options, args) = optparser.parse_args(argv[1:])
 
     for filename in args:
         dirname = os.path.dirname(filename)
-        pickledir = os.path.join(dirname, 'pickle')
-        os.system('mkdir -p "%s"' % pickledir)
-        outfile = os.path.join(pickledir, os.path.basename(filename) + ".pickle")
+        os.system('mkdir -p "%s"' % options.pickle_dir)
+        outfile = os.path.join(
+            options.pickle_dir, os.path.basename(filename) + ".pickle"
+        )
         if os.path.exists(outfile):
             print outfile, 'already exists, SKIPPING'
             continue

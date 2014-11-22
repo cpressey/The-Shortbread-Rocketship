@@ -53,6 +53,7 @@ def main(argv):
     optparser = OptionParser(__doc__)
     optparser.add_option("--minutes", default=8)
     optparser.add_option("--output-rate", default=16000)
+    optparser.add_option("--master-dir", default='pickle')
     #optparser.add_option("--snippet-duration", default=2.0)
     #optparser.add_option("--pattern", default='X')
     optparser.add_option("--output-filename", "-o", default='output.wav')
@@ -63,7 +64,7 @@ def main(argv):
     dirs = args
 
     # TODO: handle each of these slightly specially
-    master_dir = 'sources/RDY'
+    master_dir = options.master_dir
     types = ('choral', 'orch', 'speech', 'piano', 'short')
 
     patterns = [
@@ -79,8 +80,7 @@ def main(argv):
     for layer_num in xrange(0, 4):
         print 'LAYER', layer_num
         type_dir = random.choice(types)
-        type_dir = 'short'
-        dirname = os.path.join(master_dir, type_dir, 'pickle')
+        dirname = os.path.join(master_dir, type_dir)
         wavename = rand_wave(dirname)
         fullwavename = os.path.join(dirname, wavename)
         wav = load_wav(fullwavename)
