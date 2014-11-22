@@ -90,7 +90,8 @@ def main(argv):
     os.system('lame %s.wav %s' % (options.output_name, lame_name))
     os.system('ls -lh %s' % lame_name)
     os.unlink('%s.wav' % options.output_name)
-    os.system('totem %s' % lame_name)
+    if False:
+        os.system('totem %s' % lame_name)
 
 
 if __name__ == '__main__':
