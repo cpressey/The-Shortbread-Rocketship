@@ -35,7 +35,8 @@ def expand_pattern(base, expansion):
     return new
 
 
-def make_scene(sample_library):
+PREFIX = 'The Shortbread Rocketship'
+def make_scene(num, sample_library):
 
     layers = []
     used_patterns = set()
@@ -67,7 +68,12 @@ def make_scene(sample_library):
         })
         used_patterns.add(pattern)
 
+    scene = (num % 5) + 1
+    act = (num / 5) + 1
+    ROMAN = ['0', 'I', 'II', 'III', 'IV', 'V']
+
     return {
+        'name': PREFIX + '--Act %s Scene %s' % (ROMAN[act], ROMAN[scene]),
         'layers': layers
     }
 
@@ -88,8 +94,9 @@ def main(argv):
             sample_library.setdefault(type_, []).append(full_filename)
 
     scenes = []
-    for scene_num in xrange(1, 16):
-        scene = make_scene(sample_library)  # will delete from sample_library
+    for num in xrange(0, 15):
+        # this function will delete some samples from sample_library dict
+        scene = make_scene(num, sample_library)
         scenes.append(scene)
 
     print json.dumps(scenes)

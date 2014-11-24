@@ -43,7 +43,7 @@ def main(argv):
     optparser.add_option("--output-rate", default=16000)
     optparser.add_option("--master-dir", default='pickle')
     #optparser.add_option("--snippet-duration", default=2.0)
-    optparser.add_option("--output-name", "-o", default='output')
+    optparser.add_option("--output-name", "-o", default=None)
     (options, args) = optparser.parse_args(argv[1:])
 
     OUTPUT_RATE = int(options.output_rate)
@@ -52,6 +52,10 @@ def main(argv):
     scene_num = int(args[1])
     assert scene_num >= 1
     scene = scheme[scene_num-1]
+
+    output_name = options.output_name
+    if output_name is None:
+        output_name = scene['name'].replace(' ', '_')
 
     layer_names = []
     for (layer_num, layer) in enumerate(scene['layers']):
@@ -79,17 +83,17 @@ def main(argv):
 
     if len(layer_names) > 1:
         os.system('sox --norm -m %s %s.wav' % (
-            ' '.join(layer_names), options.output_name
+            ' '.join(layer_names), output_name
         ))
         for layer_name in layer_names:
             os.unlink(layer_name)
     else:
-        os.system('mv %s %s.wav' % (layer_names[0], options.output_name))
+        os.system('mv %s %s.wav' % (layer_names[0], output_name))
 
-    lame_name = options.output_name + '.mp3'
-    os.system('lame %s.wav %s' % (options.output_name, lame_name))
+    lame_name = output_name + '.mp3'
+    os.system('lame %s.wav %s' % (output_name, lame_name))
     os.system('ls -lh %s' % lame_name)
-    os.unlink('%s.wav' % options.output_name)
+    os.unlink('%s.wav' % output_name)
     if False:
         os.system('totem %s' % lame_name)
 
