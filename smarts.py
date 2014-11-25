@@ -16,12 +16,15 @@ TYPES = (
 )
 
 PATTERNS = [
-    'X',
-    'X X',
-    ' X X ',
     ' X ',
+    'X X',
     'X X ',
     ' X X',
+    ' XX ',
+    ' X X ',
+    'X X X',
+    'XX XX',
+    ' XXX ',
 ]
 
 
@@ -42,6 +45,7 @@ def make_scene(num, sample_library):
     used_patterns = set()
 
     for x in xrange(0, 4):
+        # >===> pick type
         if x == 0:
             type_ = 'choral'
         else:
@@ -49,17 +53,22 @@ def make_scene(num, sample_library):
             while not sample_library[type_]:
                 type_ = random.choice(TYPES)
 
-        pattern = None
-        while pattern is None or pattern in used_patterns:
-            pattern = random.choice(PATTERNS)
-            if random.randint(1, 2) == 2:
-                pattern = expand_pattern(pattern, random.choice(PATTERNS))
-
+        # >===> pick sample of that type
         try:
             sample = random_pop(sample_library[type_])
         except ValueError:
             print "No more samples of type %s available!!!" % type_
             raise
+
+        # >===> pick pattern
+        if x == 3:
+            pattern = 'X'
+        else:
+            pattern = None
+            while pattern is None or pattern in used_patterns:
+                pattern = random.choice(PATTERNS)
+                if random.randint(1, 3) < 3:
+                    pattern = expand_pattern(pattern, random.choice(PATTERNS))
 
         layers.append({
             'type': type_,
@@ -73,7 +82,7 @@ def make_scene(num, sample_library):
     ROMAN = ['0', 'I', 'II', 'III', 'IV', 'V']
 
     return {
-        'name': PREFIX + '--Act %s Scene %s' % (ROMAN[act], ROMAN[scene]),
+        'name': '%02d. %s--Act %s Scene %s' % (num, PREFIX, ROMAN[act], ROMAN[scene]),
         'layers': layers
     }
 

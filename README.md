@@ -41,19 +41,8 @@ the middle third".
 TODO
 ----
 
-What kinds of patterns are there?
-
-Are there patterns that should always be used?
-
 If the input sample is "short", don't carpet it, just shotgun it randomly
-around.
-
-The chosen samples for at least one layer should include a "choral"
-sample (though these might also include just speaking.)
-
-Why are my e-books not pickling correctly?!?
-(because sox stops at the incorrect header.  workaround, use avconv to
-make wav file sources for them)
+around.  Or not, running outta time.
 
 Sources Used
 ------------
@@ -146,6 +135,9 @@ Some of these are from [librivox.org](http://librivox.org)
 and some from [archive.org](http://archive.org)
 Some I cut down in size because they were so huge (I added CHUNK11 to their
 names.)
+
+Also, some of the books-on-tape had incorrect MP3 headers, which `sox`
+was just choking on, so I had to convert them to WAV with `avconv` first.
 
 *   amorporanexins_azevedo-CHUNK11.mp3
 *   Anne_island_18_montgomery.ogg
