@@ -61,13 +61,11 @@ def main(argv):
     for (layer_num, layer) in enumerate(scene['layers']):
         print 'LAYER', layer_num
 
-        dirname = os.path.join(options.master_dir, layer['type'])
         wavename = layer['sample']
-        fullwavename = os.path.join(dirname, wavename)
-        wav = load_wav(fullwavename)
+        wav = load_wav(wavename)
 
         pattern = layer['pattern']
-        print fullwavename, '-> "%s"' % pattern
+        print wavename, '-> "%s"' % pattern
         
         #snippet_dur = float(options.snippet_duration)
         snippet_dur = 2.0
