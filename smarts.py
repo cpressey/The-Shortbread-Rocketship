@@ -50,7 +50,7 @@ def make_scene(num, sample_library):
             type_ = 'choral'
         else:
             type_ = random.choice(TYPES)
-            while not sample_library[type_]:
+            while not sample_library.get(type_, []):
                 type_ = random.choice(TYPES)
 
         # >===> pick sample of that type
@@ -90,9 +90,23 @@ def make_scene(num, sample_library):
 def main(argv):
     optparser = OptionParser(__doc__)
     optparser.add_option("--master-dir", default='pickle')
+    optparser.add_option("--acts", default=3)
+    optparser.add_option("--scenes-per-act", default=5)
+    optparser.add_option("--exclude-samples-from", default=None)
+    optparser.add_option("--dump-available-samples", default=False, action='store_true')
     (options, args) = optparser.parse_args(argv[1:])
 
     master_dir = options.master_dir
+
+    num_acts = int(options.acts)
+    scenes_per_act = int(options.scenes_per_act)
+
+    exclude = set()
+    if options.exclude_samples_from is not None:
+        with open(options.exclude_samples_from, 'r') as f:
+            for scene in json.loads(f.read()):
+                for layer in scene['layers']:
+                    exclude.add(layer['sample'])
 
     sample_library = {}  # type -> list of filename
 
@@ -100,10 +114,18 @@ def main(argv):
         type_dir = os.path.join(master_dir, type_)
         for filename in os.listdir(type_dir):
             full_filename = os.path.join(type_dir, filename)
+            if full_filename in exclude:
+                #print "EXCLUDING", full_filename
+                continue
             sample_library.setdefault(type_, []).append(full_filename)
 
+    if options.dump_available_samples:
+        from pprint import pprint
+        pprint(sample_library)
+        sys.exit(0)
+
     scenes = []
-    for num in xrange(0, 15):
+    for num in xrange(0, num_acts * scenes_per_act):
         # this function will delete some samples from sample_library dict
         scene = make_scene(num, sample_library)
         scenes.append(scene)
