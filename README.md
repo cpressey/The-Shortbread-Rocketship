@@ -53,19 +53,19 @@ TODO: get URLs for these, confirm that they're all in the public domain
 
 *   181681__searchingbird__turdus-merula.mp3
 *   202111__felix-blume__two-bulls-singing-in-the-desert-of-arizona.wav
-*   206029__wjoojoo__stanley-singing.flac
-*   252904__kijjaz__20141025-two-girls-singing-and-dancing-in-a-house.wav
+*   [Stanley Singing](http://freesound.org/people/wjoojoo/sounds/206029/) CC0
+*   [20141025 Two Girls Singing and Dancing in a House](http://freesound.org/people/kijjaz/sounds/252904/) CC0
 *   Big_Bill_Broonzy_-_17_-_Baby_Please_Dont_Go.mp3
 *   Eliseo_and_Company-A_Festa_E_Munte_Virgine-Columbia-E4019_64kb.mp3
 *   Enrico_Caruso,_Bessie_Abott,_Louise_Homer,_Antonio_Scotti,_Giuseppe_Verdi,_Bella_figlia_dell'_amore_(Rigoletto)_unrestored.ogg
 *   Enrico_Caruso_-_Nellie_Melba_-_La_Boheme_-_O_soave_fanciulla.ogg
 *   Hmv-db3903-2ea8403.ogg
-*   JoeMccoy-EvilDevilWomanBlues.ogg
+*   [JoeMccoy-EvilDevilWomanBlues.ogg](https://archive.org/details/KansasJoeMccoy-EvilDevilWomanBlues) PD tag
 *   La_bohème,_O_Mimì,_tu_più_non_torni_(Caruso,_Scotti).ogg
 *   La_Donna_E_Mobile_Rigoletto.ogg
 *   Marie_Rappold_performing_O_Patria_Mia_from_Aida.ogg
-*   Mozart-Abendempfindungchant.ogg
-*   Mozart-Exultate.ogg
+*   [Mozart-Abendempfindungchant.ogg](https://archive.org/details/Abendempfindung) tagged PD
+*   [Mozart-Exultate.ogg](https://archive.org/details/MozartExultate) tagged PD
 *   Nicola_Zerola,_Giuseppe_Verdi,_La_fatal_pietra_(Aida)_unrestored.ogg
 *   No_Pagliaccio_non_son.ogg
 *   Psalters_-_01_-_Banner.mp3
@@ -131,18 +131,20 @@ to their names.)
 
 ### speech
 
-Some of these are from [librivox.org](http://librivox.org)
-and some from [archive.org](http://archive.org)
+Some of these are from [librivox.org](http://librivox.org) (which puts
+everything into the public domain)
+and some from [archive.org](http://archive.org).
+
 Some I cut down in size because they were so huge (I added CHUNK11 to their
 names.)
 
 Also, some of the books-on-tape had incorrect MP3 headers, which `sox`
 was just choking on, so I had to convert them to WAV with `avconv` first.
 
-*   amorporanexins_azevedo-CHUNK11.mp3
-*   Anne_island_18_montgomery.ogg
+*   amorporanexins_azevedo-CHUNK11.mp3 — librivox
+*   Anne_island_18_montgomery.ogg — librivox
 *   OnReleasingtheWatergateTapes.mp3
-*   populargovernment_01_macmechan_64kb-CHUNK11.mp3
+*   populargovernment_01_macmechan_64kb-CHUNK11.mp3 — librivox
 *   PressConferenceontheRiotsattheDemocraticConvention.mp3
 *   ResignationAddress-1974.mp3
-*   trespicos_19_alarcon_64kb.mp3.wav
+*   trespicos_19_alarcon_64kb.mp3.wav — librivox
