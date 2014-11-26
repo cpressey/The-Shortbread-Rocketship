@@ -1,0 +1,377 @@
+[
+    {
+        "layers": [
+            {
+                "pattern": "    X  X    ",
+                "sample": "pickle/choral/Enrico_Caruso,_Bessie_Abott,_Louise_Homer,_Antonio_Scotti,_Giuseppe_Verdi,_Bella_figlia_dell'_amore_(Rigoletto)_unrestored.ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": " X X ",
+                "sample": "pickle/speech/amorporanexins_azevedo-CHUNK11.mp3.pickle",
+                "type": "speech"
+            },
+            {
+                "pattern": "     XX  XX  XX     ",
+                "sample": "pickle/piano/Nathan_Eckel_-_03_-_Sonata_in_G_Minor_Didone_Abbandonata_op50_no3_-_III_Allegro_agitato_e_con_disperazione.mp3.pickle",
+                "type": "piano"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/short/152509__minian89__jet-engine.wav.pickle",
+                "type": "short"
+            }
+        ],
+        "name": "00. The Shortbread Rocketship--Act I Scene I"
+    },
+    {
+        "layers": [
+            {
+                "pattern": " XXX ",
+                "sample": "pickle/choral/Hmv-db3903-2ea8403.ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": "X X ",
+                "sample": "pickle/short/244795__jarredgibb__war-of-the-worlds-horn-2.wav.pickle",
+                "type": "short"
+            },
+            {
+                "pattern": "X X",
+                "sample": "pickle/piano/Nathan_Eckel_-_01_-_Sonata_in_G_Minor_Didone_Abbandonata_op50_no3_-_I_Largo_Allegro.mp3.pickle",
+                "type": "piano"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/choral/Psalters_-_01_-_Banner.mp3.pickle",
+                "type": "choral"
+            }
+        ],
+        "name": "01. The Shortbread Rocketship--Act I Scene II"
+    },
+    {
+        "layers": [
+            {
+                "pattern": " X  X     X  X ",
+                "sample": "pickle/choral/Enrico_Caruso_-_Nellie_Melba_-_La_Boheme_-_O_soave_fanciulla.ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": "    X X     X X ",
+                "sample": "pickle/piano/ScottJoplin-OriginalRagspianoRoll1900.mp3.pickle",
+                "type": "piano"
+            },
+            {
+                "pattern": " X     X    ",
+                "sample": "pickle/short/84414__emilpetersen__vand.aif.pickle",
+                "type": "short"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/choral/La_Donna_E_Mobile_Rigoletto.ogg.pickle",
+                "type": "choral"
+            }
+        ],
+        "name": "02. The Shortbread Rocketship--Act I Scene III"
+    },
+    {
+        "layers": [
+            {
+                "pattern": "     X X X     X X X     ",
+                "sample": "pickle/choral/Big_Bill_Broonzy_-_17_-_Baby_Please_Dont_Go.mp3.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": " X ",
+                "sample": "pickle/choral/Eliseo_and_Company-A_Festa_E_Munte_Virgine-Columbia-E4019_64kb.mp3.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": "XX XX     XX XX     XX XX",
+                "sample": "pickle/speech/trespicos_19_alarcon_64kb.mp3.wav.pickle",
+                "type": "speech"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/choral/Verdi_-_Melba_-_Caro_Nome_(Rigoletto).ogg.pickle",
+                "type": "choral"
+            }
+        ],
+        "name": "03. The Shortbread Rocketship--Act I Scene IV"
+    },
+    {
+        "layers": [
+            {
+                "pattern": " X X     X X    ",
+                "sample": "pickle/choral/Puccini_-_Melba_-_Donde_lieta_usci_(La_Boh\u00e8me)_-_1907.ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": " X     X     X ",
+                "sample": "pickle/choral/Verdi_Rigoletto_Sobinov.ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": "     X X XX X XX X X     ",
+                "sample": "pickle/short/188286__pepv__bird8.wav.pickle",
+                "type": "short"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/orch/162765__dorhel__symphony-orchestra-tuning-before-concert.wav.pickle",
+                "type": "orch"
+            }
+        ],
+        "name": "04. The Shortbread Rocketship--Act I Scene V"
+    },
+    {
+        "layers": [
+            {
+                "pattern": " X X ",
+                "sample": "pickle/choral/JoeMccoy-EvilDevilWomanBlues.ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": "    X     X    ",
+                "sample": "pickle/piano/Paul_Pitman_-_04_-_Preludes_Book_2_-_La_puerta_del_Vino.mp3.pickle",
+                "type": "piano"
+            },
+            {
+                "pattern": "     X X X     ",
+                "sample": "pickle/speech/ResignationAddress-1974.mp3.pickle",
+                "type": "speech"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/speech/populargovernment_01_macmechan_64kb-CHUNK11.mp3.pickle",
+                "type": "speech"
+            }
+        ],
+        "name": "05. The Shortbread Rocketship--Act II Scene I"
+    },
+    {
+        "layers": [
+            {
+                "pattern": " XX  XX      XX  XX ",
+                "sample": "pickle/choral/Nicola_Zerola,_Giuseppe_Verdi,_La_fatal_pietra_(Aida)_unrestored.ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": " X X",
+                "sample": "pickle/short/159135__cms4f__flute-play-c-16.wav.pickle",
+                "type": "short"
+            },
+            {
+                "pattern": "     X X X X    ",
+                "sample": "pickle/piano/John_H_Glover-Kind_-_10_-_I_Do_Like_To_Be_Beside_The_Seaside_1907_piano_roll.mp3.pickle",
+                "type": "piano"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/orch/140329__p-howe__lillibulleroflute.wav.pickle",
+                "type": "orch"
+            }
+        ],
+        "name": "06. The Shortbread Rocketship--Act II Scene II"
+    },
+    {
+        "layers": [
+            {
+                "pattern": "   X X   X X   ",
+                "sample": "pickle/choral/181681__searchingbird__turdus-merula.mp3.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": "X XX X   X XX X",
+                "sample": "pickle/choral/Marie_Rappold_performing_O_Patria_Mia_from_Aida.ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": "X X X",
+                "sample": "pickle/orch/The_USAF_Concert_Band_and_Singing_Sergeants_-_10_-_Winter_Vivaldis_Four_Seasons.mp3.pickle",
+                "type": "orch"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/short/145515__zabuhailo__plasticpipeflute1-PAD11.mp3.pickle",
+                "type": "short"
+            }
+        ],
+        "name": "07. The Shortbread Rocketship--Act II Scene III"
+    },
+    {
+        "layers": [
+            {
+                "pattern": "      XXX       XXX      ",
+                "sample": "pickle/choral/Mozart-Exultate.ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": "     XX XXXX XXXX XX     ",
+                "sample": "pickle/choral/252904__kijjaz__20141025-two-girls-singing-and-dancing-in-a-house.wav.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": "   X X   X X   ",
+                "sample": "pickle/orch/202724__tonant__brassbandwarmup.wav.pickle",
+                "type": "orch"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/speech/Anne_island_18_montgomery.ogg.pickle",
+                "type": "speech"
+            }
+        ],
+        "name": "08. The Shortbread Rocketship--Act II Scene IV"
+    },
+    {
+        "layers": [
+            {
+                "pattern": " X X ",
+                "sample": "pickle/choral/206029__wjoojoo__stanley-singing.flac.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": "    X X X X X X     ",
+                "sample": "pickle/choral/Verdi_-_Rigoletto_-_Smirnov.ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": "     X X XX X X     ",
+                "sample": "pickle/piano/Paul_Pitman_-_06_-_Preludes_Book_2_-_.mp3.pickle",
+                "type": "piano"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/choral/Puccini_Mi_chiamano_Mim\u00ec_par_Claudia_Muzio.ogg.pickle",
+                "type": "choral"
+            }
+        ],
+        "name": "09. The Shortbread Rocketship--Act II Scene V"
+    },
+    {
+        "layers": [
+            {
+                "pattern": " XX      XX     ",
+                "sample": "pickle/choral/La_boh\u00e8me,_O_Mim\u00ec,_tu_pi\u00f9_non_torni_(Caruso,_Scotti).ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": " X  X     X  X ",
+                "sample": "pickle/speech/PressConferenceontheRiotsattheDemocraticConvention.mp3.pickle",
+                "type": "speech"
+            },
+            {
+                "pattern": "      X X      ",
+                "sample": "pickle/piano/ScottJoplin-JosephLamb1908.mp3.pickle",
+                "type": "piano"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/speech/OnReleasingtheWatergateTapes.mp3.pickle",
+                "type": "speech"
+            }
+        ],
+        "name": "10. The Shortbread Rocketship--Act III Scene I"
+    },
+    {
+        "layers": [
+            {
+                "pattern": "   X X   ",
+                "sample": "pickle/choral/202111__felix-blume__two-bulls-singing-in-the-desert-of-arizona.wav.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": " XXX ",
+                "sample": "pickle/short/90741__bigdumbweirdo__orch-hit.wav.pickle",
+                "type": "short"
+            },
+            {
+                "pattern": "     X X X X X X    ",
+                "sample": "pickle/short/235463__jcdecha__wind-chimes-single.wav.pickle",
+                "type": "short"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/orch/202786__tonant__orchestratuning.wav.pickle",
+                "type": "orch"
+            }
+        ],
+        "name": "11. The Shortbread Rocketship--Act III Scene II"
+    },
+    {
+        "layers": [
+            {
+                "pattern": "     X X     X X",
+                "sample": "pickle/choral/No_Pagliaccio_non_son.ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": "X XX X   X XX X",
+                "sample": "pickle/piano/Scott_Joplin_-_09_-_Original_Rags_1900_piano_roll.mp3.pickle",
+                "type": "piano"
+            },
+            {
+                "pattern": " X X ",
+                "sample": "pickle/orch/The_United_States_Army_Old_Guard_Fife_and_Drum_Corps_-_20_-_Monteverdis_Toccata_from_LOrfeo.mp3.pickle",
+                "type": "orch"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/orch/165548__luckyv1303__six-studies-in-english-folk-song-i.mp3.pickle",
+                "type": "orch"
+            }
+        ],
+        "name": "12. The Shortbread Rocketship--Act III Scene III"
+    },
+    {
+        "layers": [
+            {
+                "pattern": "X X     X X     X X ",
+                "sample": "pickle/choral/Mozart-Abendempfindungchant.ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": " X X     X X     X X",
+                "sample": "pickle/orch/165549__luckyv1303__saint-seans-sonata-for-clarinet.mp3.pickle",
+                "type": "orch"
+            },
+            {
+                "pattern": "X X X",
+                "sample": "pickle/piano/ScottJoplin-RagtimeDance1906.mp3.pickle",
+                "type": "piano"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/piano/Scott_Joplin_-_Ragtime_Dance.mp3.pickle",
+                "type": "piano"
+            }
+        ],
+        "name": "13. The Shortbread Rocketship--Act III Scene IV"
+    },
+    {
+        "layers": [
+            {
+                "pattern": " XX ",
+                "sample": "pickle/choral/Puccini_La_Boheme_Vecchia_zimarra.ogg.pickle",
+                "type": "choral"
+            },
+            {
+                "pattern": "    X X     X X ",
+                "sample": "pickle/orch/165546__luckyv1303__six-studies-in-english-folk-song-iii.mp3.pickle",
+                "type": "orch"
+            },
+            {
+                "pattern": "     XX      XX     ",
+                "sample": "pickle/orch/145514__zabuhailo__plasticpipeflute2.wav.pickle",
+                "type": "orch"
+            },
+            {
+                "pattern": "X",
+                "sample": "pickle/piano/ScottJoplin-FiggyFrank1908incomplete.mp3.pickle",
+                "type": "piano"
+            }
+        ],
+        "name": "14. The Shortbread Rocketship--Act III Scene V"
+    }
+]
