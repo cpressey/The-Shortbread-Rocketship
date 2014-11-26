@@ -47,27 +47,30 @@ around.  Or not, running outta time.
 Sources Used
 ------------
 
+Note, not all of these may have actually been used!  These are all the
+possible sound files that were selected from.
+
 TODO: get URLs for these, confirm that they're all in the public domain
 
 ### choral
 
-*   181681__searchingbird__turdus-merula.mp3
-*   202111__felix-blume__two-bulls-singing-in-the-desert-of-arizona.wav
+*   [searchingbird turdus-merula.mp3](http://freesound.org/people/searchingbird/sounds/181681/) CC0
+*   [felix-blume two-bulls-singing-in-the-desert-of-arizona.wav](http://freesound.org/people/felix.blume/sounds/202111/) CC0
 *   [Stanley Singing](http://freesound.org/people/wjoojoo/sounds/206029/) CC0
 *   [20141025 Two Girls Singing and Dancing in a House](http://freesound.org/people/kijjaz/sounds/252904/) CC0
-*   Big_Bill_Broonzy_-_17_-_Baby_Please_Dont_Go.mp3
-*   Eliseo_and_Company-A_Festa_E_Munte_Virgine-Columbia-E4019_64kb.mp3
-*   Enrico_Caruso,_Bessie_Abott,_Louise_Homer,_Antonio_Scotti,_Giuseppe_Verdi,_Bella_figlia_dell'_amore_(Rigoletto)_unrestored.ogg
-*   Enrico_Caruso_-_Nellie_Melba_-_La_Boheme_-_O_soave_fanciulla.ogg
-*   Hmv-db3903-2ea8403.ogg
+*   [Big_Bill_Broonzy - 17 - Baby Please Don't Go.mp3](http://freemusicarchive.org/music/big_bill_broonzy/~/bigbillbroonzy-babypleasedontgo1) PD mark
+*   [Eliseo_and_Company-A_Festa_E_Munte_Virgine-Columbia-E4019_64kb.mp3](https://archive.org/details/Eliseo_and_Company-A_Festa) ca. 1920, assumed PD
+*   [Enrico_Caruso,_Bessie_Abott,_Louise_Homer,_Antonio_Scotti,_Giuseppe_Verdi,_Bella_figlia_dell'_amore_(Rigoletto)_unrestored.ogg](http://commons.wikimedia.org/wiki/File:Enrico_Caruso,_Bessie_Abott,_Louise_Homer,_Antonio_Scotti,_Giuseppe_Verdi,_Bella_figlia_dell%27_amore_%28Rigoletto%29_unrestored.ogg) — PD mark
+*   [Enrico_Caruso_-_Nellie_Melba_-_La_Boheme_-_O_soave_fanciulla.ogg](http://commons.wikimedia.org/wiki/File:Enrico_Caruso_-_Nellie_Melba_-_La_Boheme_-_O_soave_fanciulla.ogg) — PD mark
+*   [Hmv-db3903-2ea8403.ogg](http://commons.wikimedia.org/wiki/File:Hmv-db3903-2ea8403.ogg) — PD mark
 *   [JoeMccoy-EvilDevilWomanBlues.ogg](https://archive.org/details/KansasJoeMccoy-EvilDevilWomanBlues) PD tag
-*   La_bohème,_O_Mimì,_tu_più_non_torni_(Caruso,_Scotti).ogg
-*   La_Donna_E_Mobile_Rigoletto.ogg
-*   Marie_Rappold_performing_O_Patria_Mia_from_Aida.ogg
+*   [La_bohème,_O_Mimì,_tu_più_non_torni_(Caruso,_Scotti).ogg](http://en.wikipedia.org/wiki/File:La_boh%C3%A8me,_O_Mim%C3%AC,_tu_pi%C3%B9_non_torni_%28Caruso,_Scotti%29.ogg) — PD mark
+*   [La_Donna_E_Mobile_Rigoletto.ogg](http://commons.wikimedia.org/wiki/File:La_Donna_E_Mobile_Rigoletto.ogg) — PD mark
+*   [Marie_Rappold_performing_O_Patria_Mia_from_Aida.ogg](http://commons.wikimedia.org/wiki/File:Marie_Rappold_performing_O_Patria_Mia_from_Aida.ogg) -- 1916, public domain
 *   [Mozart-Abendempfindungchant.ogg](https://archive.org/details/Abendempfindung) tagged PD
 *   [Mozart-Exultate.ogg](https://archive.org/details/MozartExultate) tagged PD
-*   Nicola_Zerola,_Giuseppe_Verdi,_La_fatal_pietra_(Aida)_unrestored.ogg
-*   No_Pagliaccio_non_son.ogg
+*   [Nicola_Zerola,_Giuseppe_Verdi,_La_fatal_pietra_(Aida)_unrestored.ogg](http://commons.wikimedia.org/wiki/File:Nicola_Zerola,_Giuseppe_Verdi,_La_fatal_pietra_%28Aida%29_unrestored.ogg) — PD mark
+*   [No_Pagliaccio_non_son.ogg](http://commons.wikimedia.org/wiki/File:No_Pagliaccio_non_son.ogg) — PD mark
 *   Psalters_-_01_-_Banner.mp3
 *   Puccini_La_Boheme_Vecchia_zimarra.ogg
 *   Puccini_-_Melba_-_Adieu_de_Mimi_(La_Boheme)_-_1926.ogg
@@ -142,9 +145,9 @@ Also, some of the books-on-tape had incorrect MP3 headers, which `sox`
 was just choking on, so I had to convert them to WAV with `avconv` first.
 
 *   amorporanexins_azevedo-CHUNK11.mp3 — librivox
-*   Anne_island_18_montgomery.ogg — librivox
-*   OnReleasingtheWatergateTapes.mp3
-*   populargovernment_01_macmechan_64kb-CHUNK11.mp3 — librivox
-*   PressConferenceontheRiotsattheDemocraticConvention.mp3
-*   ResignationAddress-1974.mp3
+*   [Anne_island_18_montgomery.ogg](https://librivox.org/anne-of-the-island-by-lucy-maud-montgomery/)
+*   [OnReleasingtheWatergateTapes.mp3](https://archive.org/details/Greatest_Speeches_of_the_20th_Century) author is "public domain"
+*   [populargovernment_01_macmechan_64kb-CHUNK11.mp3](https://librivox.org/the-winning-of-popular-government-by-archibald-macmechan/)
+*   [PressConferenceontheRiotsattheDemocraticConvention.mp3](https://archive.org/details/Greatest_Speeches_of_the_20th_Century) author is "public domain"
+*   [ResignationAddress-1974.mp3](https://archive.org/details/Greatest_Speeches_of_the_20th_Century) author is "public domain"
 *   trespicos_19_alarcon_64kb.mp3.wav — librivox
