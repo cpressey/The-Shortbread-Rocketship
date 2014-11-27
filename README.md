@@ -53,10 +53,9 @@ the middle third".
 Sources Used
 ------------
 
-Note, not all of these may have actually been used!  These are all the
-possible sound files that were selected from.
-
-TODO: get URLs for these, confirm that they're all in the public domain
+Note, this lists only the samples that were actually picked by the script;
+there were 12 samples left over which were not picked.  For a full list,
+see the revision history of this file.
 
 ### choral
 
@@ -70,7 +69,6 @@ TODO: get URLs for these, confirm that they're all in the public domain
 *   [Enrico_Caruso_-_Nellie_Melba_-_La_Boheme_-_O_soave_fanciulla.ogg](http://commons.wikimedia.org/wiki/File:Enrico_Caruso_-_Nellie_Melba_-_La_Boheme_-_O_soave_fanciulla.ogg) — PD mark
 *   [Hmv-db3903-2ea8403.ogg](http://commons.wikimedia.org/wiki/File:Hmv-db3903-2ea8403.ogg) — PD mark
 *   [JoeMccoy-EvilDevilWomanBlues.ogg](https://archive.org/details/KansasJoeMccoy-EvilDevilWomanBlues) PD tag
-*   [La_bohème,_O_Mimì,_tu_più_non_torni_(Caruso,_Scotti).ogg](http://en.wikipedia.org/wiki/File:La_boh%C3%A8me,_O_Mim%C3%AC,_tu_pi%C3%B9_non_torni_%28Caruso,_Scotti%29.ogg) — PD mark
 *   [La_Donna_E_Mobile_Rigoletto.ogg](http://commons.wikimedia.org/wiki/File:La_Donna_E_Mobile_Rigoletto.ogg) — PD mark
 *   [Marie_Rappold_performing_O_Patria_Mia_from_Aida.ogg](http://commons.wikimedia.org/wiki/File:Marie_Rappold_performing_O_Patria_Mia_from_Aida.ogg) -- 1916, public domain
 *   [Mozart-Abendempfindungchant.ogg](https://archive.org/details/Abendempfindung) tagged PD
@@ -79,17 +77,11 @@ TODO: get URLs for these, confirm that they're all in the public domain
 *   [No_Pagliaccio_non_son.ogg](http://commons.wikimedia.org/wiki/File:No_Pagliaccio_non_son.ogg) — PD mark
 *   [Psalters_-_01_-_Banner.mp3](http://freemusicarchive.org/music/Psalters/us_vs_us/01_Banner_vbr) — PD mark
 *   [Puccini_La_Boheme_Vecchia_zimarra.ogg](http://commons.wikimedia.org/wiki/File:Puccini_La_Boheme_Vecchia_zimarra.ogg) — PD mark
-*   [Puccini_-_Melba_-_Adieu_de_Mimi_(La_Boheme)_-_1926.ogg](http://commons.wikimedia.org/wiki/File:Puccini_-_Melba_-_Adieu_de_Mimi_%28La_Boheme%29_-_1926.ogg) — PD mark
-*   [Puccini_-_Melba_-_Donde_lieta_usci_(La_Bohème)_-_1907.ogg](http://commons.wikimedia.org/wiki/File:Puccini_-_Melba_-_Donde_lieta_usci_%28La_Boh%C3%A8me%29_-_1907.ogg) — PD mark
-*   [Puccini_Mi_chiamano_Mimì_par_Claudia_Muzio.ogg](http://commons.wikimedia.org/wiki/File:Puccini_Mi_chiamano_Mim%C3%AC_par_Claudia_Muzio.ogg) — PD mark
-*   [Triumphal_March_from_Aida.ogg](http://commons.wikimedia.org/wiki/File:Triumphal_March_from_Aida.ogg) — PD (USMC) -- note, miscategorized (not choral)
 *   [Verdi_-_Melba_-_Caro_Nome_(Rigoletto).ogg](http://commons.wikimedia.org/wiki/File:Verdi_-_Melba_-_Caro_Nome_%28Rigoletto%29.ogg) — PD mark
 *   [Verdi_-_Rigoletto_-_Smirnov.ogg](http://commons.wikimedia.org/wiki/File:Verdi_-_Rigoletto_-_Smirnov.ogg) — PD mark
 *   [Verdi_Rigoletto_Sobinov.ogg](http://commons.wikimedia.org/wiki/File:Verdi_Rigoletto_Sobinov.ogg)
 
 ### orch
-
-TODO: add the source code that generated 'witide_generated_strings'
 
 The ones that start with numbers are all from
 [freesound.org](http://freesound.org/) and should not be hard to find
@@ -99,22 +91,22 @@ to confirm that they're in the public domain.
 *   145514__zabuhailo__plasticpipeflute2.wav
 *   162765__dorhel__symphony-orchestra-tuning-before-concert.wav
 *   165546__luckyv1303__six-studies-in-english-folk-song-iii.mp3
-*   165547__luckyv1303__six-studies-in-english-folk-song-ii.mp3
 *   165548__luckyv1303__six-studies-in-english-folk-song-i.mp3
 *   165549__luckyv1303__saint-seans-sonata-for-clarinet.mp3
 *   202724__tonant__brassbandwarmup.wav
 *   202786__tonant__orchestratuning.wav
-*   [Lloyd_Rodgers_-_03_-_shakeout_-_steve_moshier.mp3](http://freemusicarchive.org/music/Lloyd_Rodgers/Cartesian_Reunion_Memorial_Orchestra_1242/shakeout_-_steve_moshier) — PD mark
 *   [The_United_States_Army_Old_Guard_Fife_and_Drum_Corps_-_20_-_Monteverdis_Toccata_from_LOrfeo.mp3](http://freemusicarchive.org/music/The_United_States_Army_Old_Guard_Fife_and_Drum_Corps/Celebrating_50_Years/20) — PD mark
 *   [The_USAF_Concert_Band_and_Singing_Sergeants_-_10_-_Winter_Vivaldis_Four_Seasons.mp3](http://freemusicarchive.org/music/The_USAF_Concert_Band_and_Singing_Sergeants/Best_Of_Breitband_Vol_1/10_USAFB_-_Winter_Vivaldi_Four_Seasons) — PD mark
-*   witide_generated_strings.wav
 
 ### piano
 
-*   [Felipe_Sarro_-_11_-_C_Schumann_Scherzo_in_C_minor_Op_14.mp3](http://freemusicarchive.org/music/Felipe_Sarro/Best_Of_Breitband_Vol_1/11_Felipe_Sarro_-_C_Schumann_Scherzo_in_C_minor_Op_14) -- public domain
+Unfortunately, it looks like there were a few dups here with the Scott Joplin
+"Original Rags" and "Ragtime Dance".
+
+TODO: get URLs for the rest of these, confirm that they're all in the public domain
+
 *   [John_H_Glover-Kind_-_10_-_I_Do_Like_To_Be_Beside_The_Seaside_1907_piano_roll.mp3](http://freemusicarchive.org/music/John_H_Glover-Kind/Frog_Legs_Ragtime_Era_Favorites/10_-_john_h_glover-kind_-_i_do_like_to_be_beside_the_seaside) — PD mark
 *   [Nathan_Eckel_-_01_-_Sonata_in_G_Minor_Didone_Abbandonata_op50_no3_-_I_Largo_Allegro.mp3](http://freemusicarchive.org/music/Nathan_Eckel/Muzio_Clementis_Sonata_in_G_Minor-Didone_Abbandonata/Sonata_in_G_Minor_Didone_Abbandonata_op50_no3_-_I_Introduzione_Largo_patetico_e_sostenuto_-_I_Allegro_ma_con_espressione) -- PD
-*   [Nathan_Eckel_-_02_-_Sonata_in_G_Minor_Didone_Abbandonata_op50_no3_-_II_Adagio_dolente.mp3](http://freemusicarchive.org/music/Nathan_Eckel/Muzio_Clementis_Sonata_in_G_Minor-Didone_Abbandonata/Sonata_in_G_Minor_Didone_Abbandonata_op50_no3_-_II_Adagio_dolente) -- PD
 *   [Nathan_Eckel_-_03_-_Sonata_in_G_Minor_Didone_Abbandonata_op50_no3_-_III_Allegro_agitato_e_con_disperazione.mp3](http://freemusicarchive.org/music/Nathan_Eckel/Muzio_Clementis_Sonata_in_G_Minor-Didone_Abbandonata/Sonata_in_G_Minor_Didone_Abbandonata_op50_no3_-_III_Allegro_agitato_e_con_disperazione) -- PD
 *   Paul_Pitman_-_04_-_Preludes_Book_2_-_La_puerta_del_Vino.mp3
 *   Paul_Pitman_-_06_-_Preludes_Book_2_-_.mp3
@@ -122,8 +114,6 @@ to confirm that they're in the public domain.
 *   [ScottJoplin-FiggyFrank1908incomplete.mp3](https://archive.org/details/ScottJoplin) PD
 *   [ScottJoplin-JosephLamb1908.mp3](https://archive.org/details/ScottJoplin) PD
 *   [ScottJoplin-OriginalRagspianoRoll1900.mp3](https://archive.org/details/ScottJoplin) PD
-*   [ScottJoplin-PianoRollBlues1900.mp3](https://archive.org/details/ScottJoplin) PD
-*   [ScottJoplin-PineappleRag1908.mp3](https://archive.org/details/ScottJoplin) PD
 *   [ScottJoplin-RagtimeDance1906.mp3](https://archive.org/details/ScottJoplin) PD
 *   Scott_Joplin_-_Ragtime_Dance.mp3
 
